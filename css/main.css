@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.slider {
+  width: 95%;
+  margin: 50px auto;
+  background-color: crimson;
+  padding-block: 20px;
+  border-radius: 16px;
+}
+section.slider > .swiper > .swiper-wrapper > div:nth-child(2) {
+  border-radius: 0 16px 16px 0;
+}
+section.slider > .swiper > .swiper-wrapper > div:last-child {
+  border-radius: 16px 0 0 16px;
+}
+
+div.boxSlide > a {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 8px;
+  text-decoration: none;
+  gap: 6px;
+}
+div.boxSlide > a > img {
+  width: 132px;
+}
+div.boxSlide > a > p {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(98, 102, 109);
+  text-align: start;
+}
+div.boxSlide > a > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+div.boxSlide > a > div > span {
+  background-color: red;
+  padding-inline: 10px;
+  border-radius: 16px;
+  color: whitesmoke;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  height: 18px;
+}
+div.boxSlide > a > div > div {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+div.boxSlide > a > div > div > img {
+  width: 16px;
+  height: 16px;
+}
+div.boxSlide > a > div > div > span {
+  font-size: 14px;
+  font-weight: 700px;
+  line-height: 24px;
+  color: rgb(63, 64, 100);
+}
+div.boxSlide > a > span {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 21px;
+  color: rgb(192, 194, 197);
+  text-decoration: 1px solid lightgray line-through;
+  align-self: flex-end;
+  padding-left: 12%;
+}
+div.shegeft {
+  background-color: crimson;
+  width: 100%;
+}
+div.shegeft > a {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 6px;
+}
+div.shegeft > a > img.img1 {
+  width: 88px;
+  height: 88px;
+}
+div.shegeft > a > img.img2 {
+  width: 80px;
+  height: 80px;
+}
+div.shegeft > a > span {
+  font-size: 12px;
+  font-weight: 700;
+  color: whitesmoke;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+}
+div.shegeft > a > span > img {
+  width: 18px;
+  height: 18px;
+}
+div.shegeft > a > div {
+  display: flex;
+  color: white;
+  font-weight: 900;
+  gap: 1px;
+}
+div.shegeft > a > div > span {
+  padding: 5px;
+  background-color: white;
+  color: rgb(85, 26, 139);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+}
